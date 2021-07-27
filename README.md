@@ -1,5 +1,9 @@
-# my-app
-
+# Welcome to the BIGVU interview assignment!
+```
+Remarks:
+1. The task is done using vue.js. framework.
+2. Parts 1 and 2 of the bonus have been completed and can be viewed by turning on the bonus switch on the website
+```
 ## Project setup
 ```
 npm install
