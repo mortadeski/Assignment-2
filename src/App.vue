@@ -6,6 +6,7 @@
     </ul>
     <!--  Vue Router does not notice any change if the same component is being addressed. With the key, any change to the path will trigger a reload of the component with the new data. -->
     <router-view :key="$route.fullPath"></router-view > 
+    <br/>
   </div>
 </template>
 

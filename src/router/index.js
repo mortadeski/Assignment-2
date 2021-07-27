@@ -1,11 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Home from '../views/Home.vue'
-import MainPage from "../views/MainPage";
+import Home from '../views/WelcomePage.vue'
+import MainPage from "../views/MainPage.vue";
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: "/",
+    name: "home",
+    component: Home  },
   {
     path: "/white",
     name: "white",
@@ -24,7 +28,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  // base: process.env.BASE_URL,
   routes
 })
 
